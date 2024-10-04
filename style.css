@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F6F8FF;
+}
+
+
+nav {
+    background-color: #540D6E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+a {
+    color: #F6F8FF;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    letter-spacing: 1.5px;
+}
+
+
+
+
+
