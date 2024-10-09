@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.catalogo {
+    position: relative;
+}
+
+.img-catalogo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80vh;
+    z-index: -1;
+}
+
+.title-catalogo {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #0b0b0b, #2a222f);
+}
+
+
+nav {
+    background-color: #540D6E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logoimg {
+    height: 35px;
+    width: 35px;
+}
+
+a {
+    color: #F6F8FF;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+    font-size: 3.5vh;
+    color: #ffff;
+}
+
+h3 {
+    color: #ffff;
+    font-size: 25px;
+}
+
+p {
+    color: #FFFF;
+}
+
+h2:hover {
+    font-size: 4vh;  
+    letter-spacing: 1px;  /*faz um espaçamento entre as letras*/
+    transition: 0.4s;  /*faz uma suavização na animação*/
+}
+
+.sinop {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre {
+    margin: 10px;
+    text-align: center;
+}
+
+fieldset {
+    border-radius: 10px;
+    background: #9d148d18;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend {
+    margin-top: 10px
+}
+
+.nome {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* adiciona essa linha */
+    align-items: center;
+}
+
+.icon {
+    height: 65vh;
+    width: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7vh 5px 1px; 
+    cursor: pointer; 
+    transition: 0.7s;
+}
+
+.box-stand:hover{
+    transition: 0.7s;
+    transform: translateY(-25px);
+}
+
+.container:hover > :not(:hover){
+    opacity: 10%;
+    transition: 0.7s;
+}

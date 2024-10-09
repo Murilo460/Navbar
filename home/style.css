@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(to right, #0b0b0b, #2a222f);
+}
+
+
+nav {
+    background-color: #540D6E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.logo {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.logoimg {
+    height: 35px;
+    width: 35px;
+}
+
+a {
+    color: #F6F8FF;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    letter-spacing: 1.5px;
+}
+
+h2 {
+    text-align: center;
+    margin: 10vh 0px 10vh;
+    font-size: 3.5vh;
+    color: #ffff;
+}
+
+h3 {
+    color: #ffff;
+}
+
+p {
+    text-align: center;
+    color: #FFFF;
+}
+
+h2:hover {
+    font-size: 4vh;  
+    letter-spacing: 1px;  /*faz um espaçamento entre as letras*/
+    transition: 0.4s;  /*faz uma suavização na animação*/
+}
+
+.sinop {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* adiciona essa linha */
+    align-items: center;;
+}
+
+.sobre {
+    margin: 10px ;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    
+
+}
+
+fieldset {
+    border-radius: 10px;
+    background: #9d148d18;
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+legend {
+    margin-top: 10px
+}
+
+.nome {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icon {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 100%;
+    border: #FFFF solid 2px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7vh 15px 1px; 
+    cursor: pointer; 
+    transition: 0.7s;
+}
+
+.icon:hover {
+    height: 30vh;
+    width: 30vh;
+    border-radius: 100%;
+    border: #FFFF solid 2px;
+    justify-content: space-between;
+    align-items: center;
+
+    transition: 0.3s;
+}
