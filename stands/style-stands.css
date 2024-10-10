@@ -134,6 +134,10 @@ legend {
     transition: 0.7s;
 }
 
+.box-stand{
+    transition: 0.7s;
+}
+
 .box-stand:hover{
     transition: 0.7s;
     transform: translateY(-25px);
